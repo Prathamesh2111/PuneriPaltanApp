@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TCProjectTwo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@color/bottom_nav_background</item>
+        <item name="colorPrimary">@color/bottom_nav_background</item>
+        <item name="colorAccent">@color/puneri_blue</item>
+    </style>
+
+    <color name="fragmentbackground">@color/white</color>
+    <color name="texts">@color/black</color>
+</resources>

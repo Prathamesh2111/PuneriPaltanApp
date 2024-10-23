@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="bottom_nav_item_color">#FFFFFFFF</color>
+    <color name="bottom_nav_background">#e13c26</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="puneri_blue">#2e245a</color>
+    <color name="red">#CC960506</color>
+
+    <color name="tab_background">#FF000000</color>
+    <color name="whiteblack">#FFFFFFFF</color>
+
+
+</resources>

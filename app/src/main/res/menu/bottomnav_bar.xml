@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/icon1"
+        android:icon="@drawable/baseline_live_tv_24"
+        android:title="Puneri TV" />
+
+    <item
+        android:id="@+id/icon2"
+        android:icon="@drawable/baseline_wallpaper_24"
+        android:title="Gallery" />
+
+    <item
+        android:id="@+id/icon3"
+        android:icon="@drawable/baseline_people_24"
+        android:title="Squad" />
+    <item
+        android:id="@+id/icon4"
+        android:icon="@drawable/baseline_assignment_24"
+        android:title="About" />
+</menu>

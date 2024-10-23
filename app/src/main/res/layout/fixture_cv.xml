@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/prevButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="previous button"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/imgTeam1Logo"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tvDateTime"
+        android:contentDescription="team logo"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="4dp"/>
+
+
+        <TextView
+            android:id="@+id/tvTeams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vs"
+            android:textSize="24sp"
+            android:textColor="@color/texts"
+            android:layout_marginTop="43dp"
+            android:layout_marginHorizontal="30dp"/>
+
+    <ImageView
+        android:id="@+id/imgTeam2Logo"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:contentDescription= "team logo"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"/>
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="next button"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="6dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_margin="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/matchbegins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Match begins at"
+            android:textSize="16sp"
+            android:textColor="@color/texts"
+            android:layout_marginEnd="8dp"/> <!-- Added margin to separate texts -->
+
+        <TextView
+            android:id="@+id/tvDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08 Apr 2023, 19:30 IST"
+            android:textColor="@color/texts"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>
+
+
